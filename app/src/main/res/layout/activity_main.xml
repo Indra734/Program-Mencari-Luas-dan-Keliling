@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:orientation="vertical"
+    tools:context="com.example.luaskeliling.MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="120dp"
+        android:gravity="center"
+        android:text="KELILING DAN LUAS"
+        android:textColor="#3F51B5"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/textView5"
+        android:text="MASUKKAN NILAI PANJANG"
+        android:textColor="#3F51B5"
+        android:textSize="14dp"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/edPanjang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Panjang"
+        android:inputType="number"
+        android:minHeight="40dp"/>
+
+    <TextView
+        android:id="@+id/textView6"
+        android:text="MASUKKAN NILAI LEBAR"
+        android:textColor="#3F51B5"
+        android:textSize="14dp"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/edLebar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Lebar"
+        android:layout_marginBottom="20dp"
+        android:inputType="number"
+        android:minHeight="40dp"/>
+
+    <Button
+        android:id="@+id/btHitung"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Proses"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="GILANG RAMADHAN INDRA (12250111323)"
+        android:textStyle="italic"
+        android:textColor="#3F51B5"
+        android:gravity="center"/>
+
+</LinearLayout>
